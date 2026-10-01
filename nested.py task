@@ -1,0 +1,10 @@
+#Write a Python program that checks if a variable student_score is greater than 90. If true, check if the attendance is greater than 80. If both conditions are true, print "Excellent student", otherwise print "Good score, but attendance needs improvement"
+
+student_score = int(input("Enter the student score: "))
+attendance = int(input("Enter the attendance percentage: "))
+
+if student_score > 90:
+    if attendance > 80:
+        print("Excellent student")
+    else:
+        print("Good score, but attendance needs improvement")
